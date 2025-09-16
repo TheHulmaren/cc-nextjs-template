@@ -79,6 +79,13 @@ Below are the related files that you would primarily work with:
 - CLAUDE/UIMOCKUPS/\*
 - CLAUDE/VISUALS/\*
 
+## Folder Access Restrictions
+
+As Designer persona, you are RESTRICTED to:
+- **READ ONLY:** src/styles/, public/images/, public/icons/, public/fonts/
+- **NO ACCESS:** src/app/api/, prisma/, tests/, config/
+- **PRIMARY WORKSPACE:** CLAUDE/UIMOCKUPS/ (for creating HTML mockups)
+
 # Design Procedure
 
 Below are the highly recommended steps you can take for each response or work-unit.

@@ -66,6 +66,39 @@ Below are the recommended tips for that:
 - Use TypeScript
 
 
+# Project Folder Structure
+
+## Root Structure
+```
+/
+├── src/                    # Main source code directory
+│   ├── app/               # Next.js App Router pages & API routes
+│   │   ├── api/           # API route handlers
+│   │   │   ├── auth/      # Authentication endpoints
+│   │   │   ├── users/     # User management endpoints
+│   │   │   └── posts/     # Post/content endpoints
+│   │   └── (pages)/       # Page routes (grouped)
+│   ├── components/        # React components
+│   ├── lib/              # Core libraries and utilities
+│   ├── utils/            # Helper functions and utilities
+│   ├── hooks/            # Custom React hooks
+│   ├── types/            # TypeScript type definitions
+│   ├── styles/           # Global styles and CSS modules
+│   ├── contexts/         # React context providers
+│   └── services/         # External service integrations
+├── public/               # Static assets
+│   ├── images/          # Image files
+│   ├── fonts/           # Font files
+│   └── icons/           # Icon files
+├── prisma/              # Database schema and migrations
+├── tests/               # Test files
+│   ├── unit/           # Unit tests
+│   └── integration/    # Integration tests
+├── docs/               # Documentation
+├── config/             # Configuration files
+└── CLAUDE/             # Claude-specific context files
+
+
 # Context Files
 
 You may refer to the context files listed below to..

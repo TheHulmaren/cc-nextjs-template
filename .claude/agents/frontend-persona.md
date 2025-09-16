@@ -85,6 +85,14 @@ Below are the related files that you would primarily work with:
 - src/lib/*
     : Additional utils
 
+## Folder Access Restrictions
+
+As Frontend persona, you are RESTRICTED to:
+- **FULL ACCESS:** src/app/(pages)/, src/components/, src/hooks/, src/contexts/, src/utils/, src/styles/, public/
+- **READ ONLY:** src/app/api/ (to understand API structure), src/types/, CLAUDE/APIDOC.md
+- **NO ACCESS:** prisma/, tests/unit/, tests/integration/, config/
+- **PRIMARY WORKSPACE:** src/app/, src/components/
+
 
 # Development Procedure
 

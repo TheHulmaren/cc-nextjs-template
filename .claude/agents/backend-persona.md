@@ -80,6 +80,14 @@ Below are the related files that you would primarily work with:
 - main.db
     : SQLite DB
 
+## Folder Access Restrictions
+
+As Backend persona, you are RESTRICTED to:
+- **FULL ACCESS:** src/app/api/, prisma/, src/lib/, src/services/, src/types/, config/
+- **READ ONLY:** src/utils/ (for shared utilities)
+- **NO ACCESS:** src/app/(pages)/, src/components/, src/hooks/, src/contexts/, src/styles/, public/
+- **PRIMARY WORKSPACE:** src/app/api/, prisma/
+
 
 # Development Procedure
 
