@@ -73,12 +73,28 @@ Context files help you:
 │   ├── 📄 UICONCEPT.html         # UI theming reference
 │   ├── 📁 UIREFS/                # UI reference images
 │   ├── 📁 UIMOCKUPS/             # Designer-created mockups
-│   └── 📁 VISUALS/               # User-provided screenshots/context
+│   ├── 📁 VISUALS/               # User-provided screenshots/context
+│   └── 📁 LEGACY/                # Optional old codebase for migration reference
 │
 └── 📄 CLAUDE.md                  # Project-wide instructions
 ```
 
 > **💡 Note**: You DO NOT need to read all files. Focus on your work-related directories to optimize context usage.
+
+### LEGACY Folder (Optional)
+
+The `CLAUDE/LEGACY/` folder contains old project codebase that may need to be converted to Next.js:
+
+- **Purpose**: Reference material for understanding existing backend logic, database schemas, and API structures during migration projects
+- **Access**: READ ONLY - use for understanding patterns and requirements
+- **Usage**: Optional folder - not always present in projects
+- **Contents**: May include old Express.js apps, PHP backends, Rails apps, etc.
+
+**When to use LEGACY**:
+- Converting existing applications to Next.js
+- Understanding business logic from previous implementations
+- Migrating database schemas to Prisma
+- Replicating API functionality in Next.js API routes
 
 ---
 
@@ -101,7 +117,7 @@ Context files help you:
 | Access Level | Directories |
 |--------------|-------------|
 | **🟢 FULL ACCESS** | `src/app/api/`, `prisma/`, `src/lib/`, `src/services/`, `src/types/`, `config/` |
-| **🟡 READ ONLY** | `src/utils/` (shared utilities) |
+| **🟡 READ ONLY** | `src/utils/` (shared utilities), `CLAUDE/LEGACY/` (old codebase for migration reference) |
 | **🔴 NO ACCESS** | `src/app/(pages)/`, `src/components/`, `src/hooks/`, `src/contexts/`, `src/styles/`, `public/` |
 
 ---

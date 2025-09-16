@@ -72,6 +72,7 @@ CLAUDE/
 ├── UICONCEPT.html               # UI theme & styling concepts
 ├── UIREFS/                      # UI reference images
 ├── UIMOCKUPS/                   # Your workspace - HTML mockups
+├── LEGACY/                      # Old project codebase (optional)
 └── VISUALS/                     # User-provided visual contexts
 ```
 
@@ -81,6 +82,7 @@ CLAUDE/
 |------------|------------|---------|
 | **✅ PRIMARY WORKSPACE** | `CLAUDE/UIMOCKUPS/` | Create HTML mockups here |
 | **👁 READ ONLY** | `src/styles/`, `public/images/`, `public/icons/`, `public/fonts/` | Reference existing assets |
+| **👁 READ ONLY** | `CLAUDE/LEGACY/` | Understand old UI/design patterns for migrations |
 | **🚫 NO ACCESS** | `src/app/api/`, `prisma/`, `tests/`, `config/` | Backend concerns - not your domain |
 
 > **⚠️ Important**: Focus only on work-related directories. Don't waste context on irrelevant files.

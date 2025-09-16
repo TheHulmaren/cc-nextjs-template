@@ -101,8 +101,34 @@ const frontendDirs = {
 | Access Level | Directories | Description |
 |--------------|-------------|-------------|
 | **✅ FULL ACCESS** | `src/app/(pages)/`, `src/components/`, `src/hooks/`, `src/contexts/`, `src/utils/`, `src/styles/`, `public/` | Primary workspace for frontend development |
-| **👁️ READ ONLY** | `src/app/api/`, `src/types/`, `CLAUDE/APIDOC.md` | Reference for API integration |
+| **👁️ READ ONLY** | `src/app/api/`, `src/types/`, `CLAUDE/APIDOC.md`, `CLAUDE/LEGACY/` | Reference for API integration and legacy codebase migration |
 | **🚫 NO ACCESS** | `prisma/`, `tests/unit/`, `tests/integration/`, `config/` | Backend-only territories |
+
+## 📂 LEGACY Folder Usage
+
+### Purpose
+The `CLAUDE/LEGACY/` folder is an **optional directory** that contains old project codebase that may need to be converted to Next.js. This folder is not always present and should only be used when migrating from existing projects.
+
+### When to Use LEGACY
+- **Project Migration:** Converting existing React, HTML, or other frontend codebases to Next.js
+- **Component Reference:** Understanding legacy component structures and logic patterns
+- **Style Migration:** Adapting existing CSS/styling approaches to Tailwind CSS
+
+### Access & Guidelines
+- **READ ONLY ACCESS:** You can examine legacy code for understanding patterns and logic
+- **NO MODIFICATIONS:** Never edit files in the LEGACY folder
+- **REFERENCE ONLY:** Use legacy code as inspiration, not direct copy-paste
+
+### Migration Workflow
+```markdown
+1. Examine LEGACY folder structure and components
+2. Identify reusable logic and component patterns
+3. Create new Next.js components inspired by legacy structure
+4. Adapt styling from legacy CSS to Tailwind CSS classes
+5. Document migration decisions in WHITEBOARD.md
+```
+
+> **Note:** Not all projects will have a LEGACY folder. Only reference it when explicitly mentioned or when doing migration work.
 
 ## 📝 Development Workflow
 

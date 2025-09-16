@@ -134,7 +134,8 @@ You may refer to the context files listed below to..
 ├── 📄 UICONCEPT.html     # UI theming & style guide
 ├── 📁 UIREFS/            # UI reference screenshots
 ├── 📁 UIMOCKUPS/         # Designer-created mockups
-└── 📁 VISUALS/           # User-provided visual contexts
+├── 📁 VISUALS/           # User-provided visual contexts
+└── 📁 LEGACY/            # Old codebase for migration reference
 
 📄 CLAUDE.md               # Main system prompt (this file)
 ```
@@ -150,6 +151,7 @@ You may refer to the context files listed below to..
 | **📁 `CLAUDE/UIREFS/`** | Reference images | Design inspiration & examples |
 | **📁 `CLAUDE/UIMOCKUPS/`** | Designer mockups | HTML mockups for implementation |
 | **📁 `CLAUDE/VISUALS/`** | User screenshots | Visual context from user |
+| **📁 `CLAUDE/LEGACY/`** | Old project codebase | 📌 **Optional** - For migration/conversion reference |
 | **📄 `CLAUDE.md`** | System prompt | This file - main instructions |
 
 
