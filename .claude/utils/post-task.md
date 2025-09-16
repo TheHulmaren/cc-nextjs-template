@@ -1,0 +1,2 @@
+**MAIN AGENT REMINDER:** 
+Now update WHITEBOARD.md with completed tasks and plan next steps. Properly allocate remaining work to the right personas (Designer→Backend→Frontend). Check REQUESTS sections for cross-persona tasks.
